@@ -1,0 +1,14 @@
+{
+  "name": "tim-j-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules $(yarn bin jest) --ci --coverage --testLocationInResults --outputFile=jest-report.json --json"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
