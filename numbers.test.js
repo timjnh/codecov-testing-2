@@ -14,6 +14,6 @@ describe('subtractNumbers', () => {
 
 describe('multiplyNumbers', () => {
   test("it should multiply two numbers", () => {
-    expect(multiplyNumbers(3, 2)).toBe(7); // this test will fail
+    expect(multiplyNumbers(3, 2)).toBe(6);
   });
 });
