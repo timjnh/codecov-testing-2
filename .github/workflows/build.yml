@@ -17,6 +17,7 @@ jobs:
       - run: yarn test
       - name: Report code coverage
         uses: ArtiomTr/jest-coverage-report-action@v2
+        if: ${{ always() }}
         with:
           coverage-file: ./jest-report.json
           skip-step: all
