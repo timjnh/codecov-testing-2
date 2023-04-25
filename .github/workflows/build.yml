@@ -21,4 +21,5 @@ jobs:
         if: ${{ always() }}
         with:
           coverage-file: ./jest-report.json
-          skip-step: all
+          base-coverage-file: ./jest-report.json # don't compare with previous coverage
+          skip-step: all # skip installing dependencies and running tests
