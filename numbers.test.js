@@ -1,4 +1,4 @@
-import { addNumbers } from "./numbers.js";
+import { addNumbers, subtractNumbers, multiplyNumbers } from "./numbers.js";
 
 describe('addNumbers', () => {
   test("it should add two numbers together", () => {
